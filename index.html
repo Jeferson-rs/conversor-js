@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Conversor de Moeda</title>
+</head>
+
+<body>
+    <section>
+
+        <img class="logo" src="./img/cifrao-money.webp" alt="Chuva de Cifrão">
+
+
+        <main>
+            <label class="currency-convert">
+                Converter <b>De</b>
+                <select>
+                    <option>R$ Real brasileiro</option>
+
+                </select>
+            </label>
+
+            <label class="convert">
+                Converter <b>Para</b>
+                <select>
+                    <option>US$ Dólar</option>
+                    <option>€ Euro</option>
+
+                </select>
+            </label>
+
+            <label>
+                Valor
+                <input class="input-value" type="number" placeholder="Valor">
+            </label>
+
+            <button class="button-converter">Converter</button>
+
+
+            <section class="value-converted">
+                <div class="value-real">
+                    <img class="brazil-flag" src="./img/bandeira-brasil.gif" alt="Bandeira-Brasil">
+                    <p class="currency">Real</p>
+                    <p class="value">R$ 0,0</p>
+                </div>
+
+                <img class="arrow" src="./img/seta.png" alt="Seta para Baixo">
+
+                <div class="value-dolar-euro">
+                    <img class="eua-flag" src="./img/gifs-da-bandeira-dos-estados-unidos.gif" alt="Bandeira EUA">
+                    <p class="currency">Dóllar Americano</p>
+                    <p class="value">US$ 0,0</p>
+                </div>
+            </section>
+        </main>
+
+
+    </section>
+
+
+</body>
+
+</html>

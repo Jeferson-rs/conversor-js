@@ -8,7 +8,9 @@
 
 body {
 
-    background-color: #323131;
+    background-image: url(./img/wallpaper-dinheiro.gif);
+    background-size: cover;
+
 }
 
 .logo {
@@ -17,6 +19,7 @@ body {
     display: block;
     margin: 30px auto;
     border-radius: 30px;
+    opacity: 0.5;
 }
 
 main {

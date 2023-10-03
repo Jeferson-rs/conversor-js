@@ -8,26 +8,25 @@
 
 body {
 
-    background-color: #000000;
-
+    background-color: #323131;
 }
 
 .logo {
-
     width: 500px;
+    height: 400px;
     display: block;
     margin: 30px auto;
     border-radius: 30px;
 }
 
 main {
-    background-color: #F4F4F4;
+    background-color: #1f452b;
     width: 500px;
     height: auto;
     border-radius: 20px;
     padding: 44px 24px 23px;
     margin: 15px auto;
-    opacity: 0.8;
+    opacity: 0.9;
 
 }
 
@@ -98,13 +97,14 @@ button:active {
 .value-converted {
     border: 2px solid #772FD3;
     border-radius: 20px;
- 
-    
+
+
     padding: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .brazil-flag {
     width: 180px;
     margin-bottom: 10px;

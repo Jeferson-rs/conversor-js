@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <script src="./scripts.js"></script>
+
     <title>Conversor de Moeda</title>
 </head>
 
@@ -31,9 +31,10 @@
 
             <label class="convert">
                 Converter <b>Para</b>
-                <select>
-                    <option>US$ Dólar</option>
-                    <option>€ Euro</option>
+                <select class="select-currency">
+
+                    <option value="dolar">US$ Dólar</option>
+                    <option value="euro" >€ Euro</option>
 
                 </select>
             </label>
@@ -57,9 +58,10 @@
 
                 <div class="value-dolar-euro">
                     <img class="eua-flag" src="./img/gifs-da-bandeira-dos-estados-unidos.gif" alt="Bandeira EUA">
-                    <p class="currency">Dóllar Americano</p>
-                    <p class="value">US$ 0,0</p>
+                    <p class="currency" id="change-currency">Dóllar Americano</p>
+                    <p class="value-dolar" id="change-cifrão">US$ 0,0</p>
                 </div>
+            
             </section>
         </main>
 
@@ -68,5 +70,7 @@
 
 
 </body>
+
+<script src="./scripts.js"></script>
 
 </html>
